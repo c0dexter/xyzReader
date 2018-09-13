@@ -142,11 +142,11 @@ public class ArticleDetailFragment extends Fragment implements
             return;
         }
 
+        mPhotoView = (ThreeTwoImageView) mRootView.findViewById(R.id.photo);
         TextView titleView = (TextView) mRootView.findViewById(R.id.article_title);
         TextView bylineView = (TextView) mRootView.findViewById(R.id.article_byline);
         bylineView.setMovementMethod(new LinkMovementMethod());
         TextView bodyView = (TextView) mRootView.findViewById(R.id.article_body);
-        mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
 
 
         bodyView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Rosario-Regular.ttf"));
@@ -233,5 +233,4 @@ public class ArticleDetailFragment extends Fragment implements
         bindViews();
     }
 
-    // TODO: onDestroyView() ???
 }
