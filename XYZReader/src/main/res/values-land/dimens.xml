@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="app_bar_elevation">4dp</dimen>
+    <dimen name="elevation_frame_toolbar">4dp</dimen>
 </resources>

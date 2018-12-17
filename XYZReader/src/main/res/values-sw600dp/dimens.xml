@@ -5,4 +5,5 @@
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.3</item>
     <dimen name="fab_margin">24dp</dimen>
     <dimen name="app_bar_elevation">4dp</dimen>
+    <dimen name="elevation_frame_toolbar">4dp</dimen>
 </resources>
